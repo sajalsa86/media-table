@@ -1,0 +1,62 @@
+.audio {
+    background-color: bisque;
+    width: 350px;
+    height: 250px;
+    border: 5px dashed red;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px royalblue;
+    margin-bottom: 50px;
+}
+
+.audio-position {
+    position: relative;
+    top: 100px;
+    left: 25px;
+    background-color: aquamarine;
+}
+
+.video {
+    background-color: bisque;
+    width: 700px;
+    height: 500px;
+    border: 5px dashed red;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px royalblue;
+    margin-bottom: 50px;
+}
+
+.video-position {
+    position: relative;
+    top: 70px;
+    left: 25px;
+    background-color: aquamarine;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+table th {
+    background-color: antiquewhite;
+    width: 100px;
+    color: hotpink;
+
+}
+
+table td:nth-child(2n+1) {
+    background-color: rgb(64, 91, 92);
+    color: blue;
+}
+
+table td:nth-child(2n) {
+    background-color: rgb(159, 229, 231);
+    color: blueviolet;
+}
